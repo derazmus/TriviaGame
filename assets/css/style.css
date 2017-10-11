@@ -1,37 +1,78 @@
-body{
-	background: url("http://1cgjpf25zi074142gw1gflfx5xl.wpengine.netdna-cdn.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-27-at-9.17.41-AM.jpg");
-	 background-repeat: no-repeat;
-	 background-attachment: fixed;
-     background-position: center; 
+body {
+	background-image: url(https://img0.etsystatic.com/035/0/8179411/il_fullxfull.534865052_fj25.jpg);
+	width: 100%;
+	font-family: "Rammetto One", cursive, Arial;
+	text-align: center;
+	font-size: 18px;
 	background-color: tan;
-	background-opacity: .5;
+	color: brown;
 }
 
-#title{
+h1 {
+	font-size: 70px;
 	text-align: center;
-	font-size: 160px;
-	text-shadow: 4px 4px white;
-	color: #3a2613;
+	font-family: "Rammetto One", cursive, Arial;
+	color: tan;
 }
 
-.button{
-	background-color: #3a2613;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 12px;\
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    align-items: center;
-}
-
-.buttonW, .buttonR{
+h2 {
+	font-size: 50px;
 	text-align: center;
+	font-family: "Rammetto One", cursive, Arial;
+	color: #5A0606;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
+p {
+	font-size: 20px;
+	color: black;
+}
 
+h4 {
+	font-size: 22px;
+	color: #5A0606;
+}
 
+.container {
+	background-color: tan;
+	border-radius: 10px;
+}
 
+button {
+	width: 350px;
+	height: 70px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 5px;
+	background-color: brown;
+	border-color: #5A0606;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #5A0606;
+}
+
+button:hover {
+	background-color: #5A0606;
+	border-color: #5A0606;
+}
+
+form {
+	color: #5A0606;
+}
+
+input[type=radio] {
+	margin-left: 25px;
+	margin-right: 5px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
